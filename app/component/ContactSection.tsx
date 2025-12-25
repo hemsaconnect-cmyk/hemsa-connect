@@ -6,8 +6,8 @@ export default function ContactSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-4xl font-bold text-center mb-12 text-gray-900">Get in Touch</h2>
         <div className="grid md:grid-cols-2 gap-12">
-          <div>
-            <h3 className="text-2xl font-bold mb-6">Contact Information</h3>
+          <div className='text-black' >
+            <h3 className="text-2xl  font-bold mb-6">Contact Information</h3>
             <div className="space-y-4">
               <div className="flex items-start">
                 <MapPin className="text-blue-600 mr-3 mt-1" size={24} />
