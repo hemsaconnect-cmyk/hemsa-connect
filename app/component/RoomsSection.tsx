@@ -12,7 +12,7 @@ interface Room {
 export default function RoomsSection() {
   const rooms: Room[] = [
     {
-      name: 'Luxury Jacuzzi Room',
+      name: ' Luxury Family Room with Jacuzzi & sofa cum bed',
       price: '₹6,999',
       image: '/room with jacuzzi.jpeg',
       description:
@@ -26,7 +26,7 @@ export default function RoomsSection() {
       ]
     },
     {
-      name: 'Premium Deluxe Room',
+      name: 'Luxury Jacuzzi room with Hill view balcony',
       price: '₹4,999',
       image: '/deluxe room .jpeg',
       description:
@@ -39,20 +39,7 @@ export default function RoomsSection() {
         'Room Service'
       ]
     },
-    {
-      name: 'Executive Comfort Room',
-      price: '₹3,999',
-      image: '/buildinghemsa.jpeg',
-      description:
-        'Comfortable and affordable room near Udaipur Railway Station with all essential amenities.',
-      features: [
-        'Near Railway Station',
-        'Queen Size Bed',
-        'Free WiFi',
-        'AC',
-        'Attached Bathroom'
-      ]
-    }
+   
   ];
 
   return (
@@ -123,7 +110,7 @@ export default function RoomsSection() {
                 </ul>
 
                 <a
-               href={`https://wa.me/917877548479?text=${encodeURIComponent(
+               href={`https://wa.me/919784186688?text=${encodeURIComponent(
                  `Hi, I want to book a room at Hotel Hemsa Connect.\nRoom Type: \nCheck-in Date:`
                     )}`}
               target="_blank"

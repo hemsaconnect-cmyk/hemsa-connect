@@ -13,14 +13,14 @@ export default function ContactSection() {
                 <MapPin className="text-blue-600 mr-3 mt-1" size={24} />
                 <div>
                   <p className="font-semibold">Address</p>
-                  <p className="text-gray-600">123 Main Street, Delhi, India 110001</p>
+                  <p className="text-gray-600">Shopping Center, 1-2, opp. Rajasthan Bus Dipo, Sector 11, Hiran Magri, Udaipur, Rajasthan 313001·1.5 km</p>
                 </div>
               </div>
               <div className="flex items-start">
                 <Phone className="text-blue-600 mr-3 mt-1" size={24} />
                 <div>
                   <p className="font-semibold">Phone</p>
-                  <p className="text-gray-600">+91 98765 43210</p>
+                  <p className="text-gray-600">+91 9784186688</p>
                 </div>
               </div>
               <div className="flex items-start">

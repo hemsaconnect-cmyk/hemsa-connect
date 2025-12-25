@@ -1,6 +1,6 @@
 'use client';
 
-import { Star, CalendarCheck, Bath, Sparkles, ShieldCheck, BedDouble, Wifi } from 'lucide-react';
+import { Star, CalendarCheck, Bath, Sparkles, ShieldCheck, BedDouble, Wifi, MapPin } from 'lucide-react';
 
 export default function HeroSection() {
   return (
@@ -20,17 +20,32 @@ export default function HeroSection() {
               Rated 4.8 by 2,000+ Guests
             </div>
 
-            <h1 className="text-4xl sm:text-5xl xl:text-6xl font-extrabold leading-tight mb-6">
+            <h1 className="text-4xl sm:text-5xl xl:text-6xl font-extrabold leading-tight mb-2">
               Welcome to <span className="text-blue-300">Hotel Hemsa</span> Connect
             </h1>
 
-            <p className="text-lg sm:text-xl text-blue-100 max-w-xl mb-8">
+            <p className="text-xl sm:text-2xl text-blue-200 font-medium mb-6">
+              A luxury jacuzzi boutique stay Udaipur
+            </p>
+
+            <p className="text-lg sm:text-xl text-blue-100 max-w-xl mb-6">
              Hotel Hemsa Connect offers luxury private Jacuzzi rooms in Udaipur for guests seeking privacy, comfort, and a premium stay experience. Located near Udaipur Railway Station, our hotel is a preferred choice for couples, honeymooners, and travelers looking for a romantic hotel with Jacuzzi in Udaipur.
             </p>
 
+            <div className="flex items-start gap-2 text-blue-200 mb-8 max-w-xl">
+              <MapPin className="w-5 h-5 text-blue-300 flex-shrink-0 mt-1" />
+              <span className="text-sm sm:text-base font-medium">
+                Shopping Center, 1-2, opp. Rajasthan Bus Dipo, Sector 11, Hiran Magri, Udaipur, Rajasthan 313001
+              </span>
+            </div>
+
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href="/booking"
+                href={`https://wa.me/919784186688?text=${encodeURIComponent(
+                 `Hi, I want to book a room at Hotel Hemsa Connect.\nRoom Type: \nCheck-in Date:`
+                    )}`}
+              target="_blank"
+            rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-white text-blue-900 px-8 py-4 rounded-2xl font-semibold shadow-lg hover:bg-blue-50 transition"
               >
                 <CalendarCheck size={18} /> Book Your Stay
@@ -90,3 +105,4 @@ export default function HeroSection() {
     </section>
   );
 }
+    

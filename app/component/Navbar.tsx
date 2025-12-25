@@ -68,13 +68,17 @@ export default function Navbar() {
           {/* Right Actions */}
           <div className="hidden md:flex items-center space-x-4">
             <Link
-              href="tel:+919999999999"
+              href="tel:+919784186688"
               className="flex items-center gap-2 text-sm font-medium text-gray-700 hover:text-blue-700"
             >
               <Phone size={16} /> Call Us
             </Link>
             <Link
-              href="/booking"
+             href={`https://wa.me/919784186688?text=${encodeURIComponent(
+                 `Hi, I want to book a room at Hotel Hemsa Connect.\nRoom Type: \nCheck-in Date:`
+                    )}`}
+              target="_blank"
+            rel="noopener noreferrer"
               className="flex items-center gap-2 bg-blue-900 text-white px-4 py-2 rounded-xl shadow hover:bg-blue-800 transition"
             >
               <CalendarCheck size={16} /> Book Now
@@ -117,17 +121,17 @@ export default function Navbar() {
 
               <div className="pt-4 border-t space-y-3">
                 <a
-                  href="tel:+919999999999"
+                  href="tel:+919784186688"
                   className="flex items-center gap-2 text-gray-700"
                 >
                   <Phone size={16} /> Call Us
                 </a>
-                <a
+                {/* <a
                   href="/booking"
                   className="flex items-center justify-center gap-2 bg-blue-900 text-white px-4 py-3 rounded-xl"
                 >
                   <CalendarCheck size={16} /> Book Your Stay
-                </a>
+                </a> */}
               </div>
             </div>
           </motion.div>
