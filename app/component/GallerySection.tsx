@@ -25,36 +25,92 @@ export default function GalleryPage() {
       alt: "Premium Deluxe Room at Hotel Hemsa Connect",
       category: " Deluxe Rooms"
     },
-    // {
-    //   src: "/images/gallery/executive-room.jpg",
-    //   alt: "Executive Comfort Room near Udaipur Railway Station",
-    //   category: "Rooms"
-    // },
-    // {
-    //   src: "/images/gallery/bathroom.jpg",
-    //   alt: "Modern Clean Bathroom at Hotel Hemsa Connect",
-    //   category: "Bathrooms"
-    // },
-    // {
-    //   src: "/images/gallery/hotel-front.jpg",
-    //   alt: "Hotel Hemsa Connect Exterior View",
-    //   category: "Hotel"
-    // },
-    // {
-    //   src: "/images/gallery/reception.jpg",
-    //   alt: "Hotel Hemsa Connect Reception Area",
-    //   category: "Hotel"
-    // },
-    // {
-    //   src: "/images/gallery/parking.jpg",
-    //   alt: "Free Parking Facility at Hotel Hemsa Connect",
-    //   category: "Amenities"
-    // },
-    // {
-    //   src: "/images/gallery/location.jpg",
-    //   alt: "Hotel Hemsa Connect Near Udaipur Railway Station",
-    //   category: "Location"
-    // }
+    {
+      src: "/1.jpeg",
+      alt: "",
+      category: ""
+    },
+     {
+      src: "/2.jpeg",
+      alt: "",
+      category: ""
+    }, {
+      src: "/3.jpeg",
+      alt: "",
+      category: ""
+    }, {
+      src: "/4.jpeg",
+      alt: "",
+      category: ""
+    }, {
+      src: "/5.jpeg",
+      alt: "",
+      category: ""
+    }, {
+      src: "/6.jpeg",
+      alt: "",
+      category: ""
+    }, {
+      src: "/7.jpeg",
+      alt: "",
+      category: ""
+    }, {
+      src: "/8.jpeg",
+      alt: "",
+      category: ""
+    }, {
+      src: "/9.jpeg",
+      alt: "",
+      category: ""
+    }, {
+      src: "/10.jpeg",
+      alt: "",
+      category: ""
+    }, {
+      src: "/11.jpeg",
+      alt: "",
+      category: ""
+    },  {
+      src: "/13.jpeg",
+      alt: "",
+      category: ""
+    }, {
+      src: "/14.jpeg",
+      alt: "",
+      category: ""
+    }, {
+      src: "/15.jpeg",
+      alt: "",
+      category: ""
+    }, {
+      src: "/16.jpeg",
+      alt: "",
+      category: ""
+    }, {
+      src: "/17.jpeg",
+      alt: "",
+      category: ""
+    }, {
+      src: "/18.jpeg",
+      alt: "",
+      category: ""
+    }, {
+      src: "/19.jpeg",
+      alt: "",
+      category: ""
+    }, {
+      src: "/20.jpeg",
+      alt: "",
+      category: ""
+    }, {
+      src: "/21.jpeg",
+      alt: "",
+      category: ""
+    }, {
+      src: "/22.jpeg",
+      alt: "",
+      category: ""
+    },
   ];
 
   return (
