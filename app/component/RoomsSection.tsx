@@ -14,7 +14,7 @@ export default function RoomsSection() {
     {
       name: ' Luxury Family Room with Jacuzzi & sofa cum bed',
       price: '₹6,999',
-      image: '/room with jacuzzi.jpeg',
+      image: '/5.jpeg',
       description:
         'Private luxury Jacuzzi room designed for couples seeking comfort, privacy and a romantic stay in Udaipur.',
       features: [
@@ -28,7 +28,7 @@ export default function RoomsSection() {
     {
       name: 'Luxury Jacuzzi room with Hill view balcony',
       price: '₹4,999',
-      image: '/deluxe room .jpeg',
+      image: '/11.jpeg',
       description:
         'Modern deluxe room with elegant interiors, perfect for business travelers and leisure guests.',
       features: [
@@ -84,13 +84,13 @@ export default function RoomsSection() {
                 <h3 className="text-2xl font-bold text-gray-900 mb-2">
                   {room.name}
                 </h3>
-
+{/* 
                 <p className="text-3xl font-extrabold text-blue-900 mb-3">
                   {room.price}
                   <span className="text-sm text-gray-500 font-medium">
                     {' '} / night
                   </span>
-                </p>
+                </p> */}
 
                 <p className="text-gray-600 mb-6">
                   {room.description}
